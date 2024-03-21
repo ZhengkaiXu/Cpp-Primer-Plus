@@ -13,5 +13,6 @@ int main() {
     // the next line concatenates output
     cout << "Now you have " << carrots << " carrots." << endl;
 
+    
     return 0;
 }
