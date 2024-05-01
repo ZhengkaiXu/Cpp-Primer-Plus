@@ -1,0 +1,5 @@
+# ninja log v5
+1	37	1714553578030678092	build.ninja	effe9d58ecbf1620
+0	199	1714553578231917883	CMakeFiles/twofile.dir/twofile1.cpp.o	a09c875da4df37de
+0	201	1714553578231919216	CMakeFiles/twofile.dir/twofile2.cpp.o	1b6077ab2a042fee
+201	221	1714553578255301238	twofile	c0456a3a8675e405

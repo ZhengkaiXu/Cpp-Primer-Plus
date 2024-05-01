@@ -1,0 +1,9 @@
+# ninja log v5
+213	233	1714564871337505807	usenmsp	da55c37d77e41b03
+1	211	1714564871314056117	CMakeFiles/usenmsp.dir/main.cpp.o	8ada5b84aaec25e8
+2	50	1714566044405272110	build.ninja	393f4bda2825703c
+0	196	1714566044606010183	CMakeFiles/usenmsp.dir/usenmsp.cpp.o	96cddc897d62d3c8
+0	201	1714566044611578652	CMakeFiles/usenmsp.dir/namesp.cpp.o	ecfec48e54045d32
+2	180	1714566558669020567	CMakeFiles/usenmsp.dir/usenmsp.cpp.o	96cddc897d62d3c8
+2	192	1714566671461429649	CMakeFiles/usenmsp.dir/namesp.cpp.o	ecfec48e54045d32
+192	212	1714566671483396855	usenmsp	ad64d5888e3d1a95
