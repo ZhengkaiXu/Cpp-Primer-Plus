@@ -18,5 +18,6 @@ int main() {
     fluffy_the_cat.show();
     fluffy_the_cat.sell(300000, 0.125);
     fluffy_the_cat.show();
+
     return 0;
 }
