@@ -1,0 +1,5 @@
+# ninja log v5
+1	44	1717438615434323397	build.ninja	1172bbbfd7e78e0b
+1	293	1717438615729931527	CMakeFiles/mytime3.dir/usetime3.cpp.o	f708a83b7cd68a0c
+1	295	1717438615729932318	CMakeFiles/mytime3.dir/mytime3.cpp.o	efaa3b7e9e8bbedc
+295	323	1717438615761107590	mytime3	e5d53f4786d0862d
