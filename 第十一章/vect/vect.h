@@ -13,11 +13,11 @@ namespace VECTOR {
     private:
         double x; // horizontal value
         double y; // vertical value
-        double msg; // length of vector
+        double mag; // length of vector
         double ang; // direction of vector in degrees
         Mode mode; // RECT or POL
         // private methods for setting values
-        void set_msg();
+        void set_mag();
         void set_ang();
         void set_x();
         void set_y();
@@ -33,7 +33,7 @@ namespace VECTOR {
             return y;
         } // report y value
         double magval() const {
-            return msg;
+            return mag;
         } // report magnitude
         double angval() const {
             return ang;
@@ -43,6 +43,7 @@ namespace VECTOR {
         // operator overloading
         Vector operator+(const Vector &b) const;
         Vector operator-(const Vector &b) const;
+        Vector operator-() const;
         Vector operator*(double n) const;
         // friends
         friend Vector operator*(double n, const Vector &a);
