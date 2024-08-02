@@ -66,6 +66,29 @@ namespace VECTOR {
         }
     }
 
+    // reset vector from rectangular coordinates if from is
+    // RECT (the default) or else from polar coordinates if
+    // from is POL
+    void Vector::reset(double n1, double n2, Mode form) {
+        mode = form;
+        if (form == RECT) {
+            x = n1;
+            y = n2;
+            set_mag();
+            set_ang();
+        } else if (form == POL) {
+            mag = n1;
+            ang = n2 / Rad_to_deg;
+            set_x();
+            set_y();
+        } else {
+            cout << "Incorrect 3rd argument to Vector() -- ";
+            cout << "vector set to 0\n";
+            x = y = mag = ang = 0.0;
+            mode = RECT;
+        }
+    }
+
     Vector::~Vector() { // destructor
 
     }
@@ -109,7 +132,7 @@ namespace VECTOR {
     // else display polar coordinates if mode is POL
     std::ostream & operator<<(std::ostream & os, const Vector & v) {
         if (v.mode == Vector::RECT) {
-            os << "(x, y) = (" << v.x << ", " << v.y << v.y << ")";
+            os << "(x, y) = (" << v.x << ", " << v.y << ")";
         } else if (v.mode == Vector::POL) {
             os << "(m, a) = (" << v.mag << ", "
             << v.ang * Rad_to_deg << ")";
