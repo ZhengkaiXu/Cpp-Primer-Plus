@@ -24,6 +24,7 @@ Stonewt::Stonewt() { // default constructor, wt = 0
     stone = pounds = pds_left = 0;
 }
 
+
 Stonewt::~Stonewt() { // destructor
 }
 
