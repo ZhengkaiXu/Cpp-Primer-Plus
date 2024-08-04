@@ -21,4 +21,4 @@ public:
     operator int() const;
     operator double() const;
 };
-#endif //STONEWT1_STONE_H
+#endif

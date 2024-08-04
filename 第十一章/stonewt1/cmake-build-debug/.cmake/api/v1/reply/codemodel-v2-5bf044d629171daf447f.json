@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stonewt1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stonewt1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonewt1-Debug-bb3fe590dd1cc22324cb.json",
+					"name" : "stonewt1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xuzhengkai/Desktop/study/Cpp-Primer-Plus/\u7b2c\u5341\u4e00\u7ae0/stonewt1/cmake-build-debug",
+		"source" : "/Users/xuzhengkai/Desktop/study/Cpp-Primer-Plus/\u7b2c\u5341\u4e00\u7ae0/stonewt1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
