@@ -17,7 +17,7 @@ Stonewt::Stonewt(double lbs) {
 Stonewt::Stonewt(int stn, double lbs) {
     stone = stn;
     pds_left = lbs;
-    pounds = stn * Lbs_per_stn;
+    pounds = stn * Lbs_per_stn +lbs;
 }
 
 Stonewt::Stonewt() { // default constructor, wt = 0
