@@ -35,6 +35,7 @@ StringBad::~StringBad() { // necessary destructor
     delete [] str; // required
 }
 std::ostream & operator<<(std::ostream & os, const StringBad &st) {
+
     os << st.str;
     return os;
 }
